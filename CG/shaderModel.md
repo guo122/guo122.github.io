@@ -1,5 +1,5 @@
 
-# Vertex Shaders
+# HLSL Shader Model
 
 将顶点从模型空间坐标系转化到屏幕空间坐标系
 
@@ -140,4 +140,5 @@ THR( device->SetStreamSourceFreq( 1, D3DSTREAMSOURCE_INDEXEDDATA | 1 ) );
 
 ## Reference
 
+- [Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl)
 - [定点着色器详解（Vertex Shaders）](https://www.cnblogs.com/lvrcbl/p/3909178.html)

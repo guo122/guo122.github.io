@@ -1,4 +1,4 @@
 
 # Computer Graphics
 
-- [Vertex Shaders](./vertexShaders.md)
+- [HLSL Shader Model](./shaderModel.md)

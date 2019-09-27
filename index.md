@@ -1,5 +1,5 @@
 
 # xixi
 
-- [Computer Graphics](./CG/index.md)
+- [Computer Graphics](./cg/index.md)
 - [wow](./wow/index.md)
