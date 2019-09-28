@@ -59,6 +59,7 @@ TextureTemplate
 
 ## Emissive
 
+- Color
 - Boost
 - TextureTemplate
 
