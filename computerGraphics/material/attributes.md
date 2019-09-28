@@ -34,7 +34,7 @@ TextureTemplate
 - Used by Skeleton Mesh
 - Used by GUI
 
-## Diffuse
+## Diffuse 漫反射
 
 - Color
 - Boost
@@ -50,14 +50,14 @@ TextureTemplate
 - Boost
 - TextureTemplate
 
-## Specular
+## Specular 高光
 
 - Roughness
 - Luminance
 - Metallic
 - TextureTemplate
 
-## Emissive
+## Emissive 自发光
 
 - Color
 - Boost
@@ -69,13 +69,13 @@ TextureTemplate
 - Threshold
 - TextureTemplate
 
-## Distortion
+## Distortion 变形
 
 - Intensity
 - Boost
 - TextureTemplate
 
-## Noise
+## Noise 躁波
 
 - Boost
 - TextureTemplate
@@ -88,4 +88,6 @@ TextureTemplate
 
 
 
+## Reference
 
+- [使用自发光Emissive材质输入](http://docs.manew.com/ue4/323.html)
