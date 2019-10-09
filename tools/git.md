@@ -18,6 +18,8 @@ git clone --depth=1 <url>
 git remote set-branches origin <branch>
 git fetch --depth=1 origin <branch>
 git checkout <branch>
+
+git pull --unshallow
 ```
 
 ## Branch
@@ -88,7 +90,22 @@ git rm --cached <name>
 git commit -am "remove submodule"
 ```
 
+### shallow
+
+```
+git config -f .gitmodules submodule.<name>.shallow true
+git submoudle update --[no-]recommend-shallow --init --recursive
+```
+
+[How to make shallow git submodules?](https://stackoverflow.com/questions/2144406/how-to-make-shallow-git-submodules)
+
 ## Config
+
+### alias
+
+```
+git config --global alias.ssup 'submodule update --recommend-shallow --init --recursive'
+```
 
 ### Color
 
