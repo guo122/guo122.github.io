@@ -24,15 +24,28 @@ git pull --unshallow
 
 ## Branch
 
-### something
+### add
 
 ```
-git checkout -b <branch-name>
+git checkout -b <branch-name> [<remote-branch-name>]
 git checkout <branch-name>
-git branch
+```
 
+### remove
+
+```
+git branch -d <branch-name>
+git push origin --delete <branch-name>
+```
+
+### view
+
+```
+git branch
 git show-branch
 git log --graph
+
+git ls-remote
 ```
 
 ### fork merge
@@ -104,7 +117,16 @@ git submoudle update --[no-]recommend-shallow --init --recursive
 ### alias
 
 ```
-git config --global alias.ssup 'submodule update --recommend-shallow --init --recursive'
+git config --global alias.ggsubup 'submodule update --recommend-shallow --init --recursive'
+git config --global alias.ffo 'config --local remote.origin.fetch +refs/heads/*:refs/remotes/origin/*'
+```
+
+```
+git config --local alias.ffadd 'remote add fork_origin <url>'
+git config --local alias.ffetch 'fetch fork_origin master'
+git config --local alias.ffbranch 'checkout fork_master'
+git config --local alias.ffmerge 'merge fork_origin/master'
+git config --local alias.ffpush 'push origin fork_master'
 ```
 
 ### Color
@@ -136,4 +158,55 @@ Host <name>
     Hostname github.com
     user git
     Identityfile ~/.ssh/id
+```
+
+### remote origin
+
+```
+git config --local remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+```
+
+## Prompt
+
+### show branch on Terminal
+
+```
+#show the current git branch
+find_git_branch() {
+    local dir=. head
+    until [ "$dir" -ef / ]; do
+        if [ -f "$dir/.git/HEAD" ]; then
+            head=$(< "$dir/.git/HEAD")
+            if [[ $head = ref:\ refs/heads/* ]]; then
+                git_branch="(${head#*/*/})"
+            elif [[ $head != '' ]]; then
+                git_branch="((detached))"
+            else
+                git_branch="((unknow))"
+            fi
+            return
+        fi
+        dir="../$dir"
+    done
+    git_branch=''
+}
+
+PROMPT_COMMAND="find_git_branch; $PROMPT_COMMAND"
+PS1="\h:\W\[\033[0;32m\]\$git_branch\[\033[0m\] \u\$ "
+```
+
+### git config
+
+```
+[user]
+    name = guo122
+    email = balanuard@163.com
+[merge]
+    tool = vimdiff
+[mergetool]
+    prompt = false
+[alias]
+    ggsubup = submodule update --recommend-shallow --init --recursive
+    ffo = config --local remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+	ggcm = commit -m "update"
 ```
