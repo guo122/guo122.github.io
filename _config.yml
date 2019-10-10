@@ -1,1 +1,6 @@
-theme: jekyll-theme-leap-day
+#theme: jekyll-theme-leap-day
+
+# Build settings
+markdown: kramdown
+#theme: minima
+remote_theme: guo122/retlab
