@@ -73,16 +73,16 @@ _get_current_branch(){
     git_branch=`ggitGetCurrentBranch`
 }
 
-PROMPT_COMMAND="_get_current_branch; $PROMPT_COMMAND"
-PS1="\h:\W\[\033[0;36m\]\$git_branch\[\033[0m\] \u\$ "
+#PROMPT_COMMAND="_get_current_branch; $PROMPT_COMMAND"
+#PS1="\h:\W\[\033[0;36m\]\$git_branch\[\033[0m\] \u\$ "
 
 source ~/.git-completion.bash
-#GIT_PS1_SHOWDIRTYSTATE=true
-#GIT_PS1_SHOWCOLORHINTS=true
-#if [ -f ~/.git-completion.bash ]; then
-  #source ~/.git-prompt.sh
-  #PROMPT_COMMAND='__git_ps1 "\h:\W" " \u\$ "'
-#fi
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWCOLORHINTS=true
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-prompt.sh
+  PROMPT_COMMAND="__git_ps1 \"\h:\W\" \" \u\$ \"; $PROMPT_COMMAND"
+fi
 
 alias ga="git add"
 alias gif="git diff"
