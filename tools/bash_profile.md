@@ -1,5 +1,7 @@
 
 ```
+#!/bin/bash
+
 ##########################################################
 #				replace
 ##########################################################
@@ -20,7 +22,9 @@ alias vi="vim"
 alias vii="vim"
 #	.bash_profile
 alias vipro="vim ~/.bash_profile"
+alias viproo="vim ~/.bash_custom"
 alias soupro="source ~/.bash_profile"
+alias souproo="source ~/.bash_custom"
 
 ##########################################################
 #				workspace
@@ -34,6 +38,8 @@ alias cdg="cdc;cd guo"
 ##########################################################
 #               path
 ##########################################################
+source ~/.bash_tools
+source ~/.bash_custom
 #	home
 export PATH=${PATH}:${HOME}/bin
 #	adb
@@ -112,5 +118,4 @@ complete -o bashdefault -o default -o nospace -F ___git_gs gs
 complete -o bashdefault -o default -o nospace -F ___git_gl gl
 complete -o bashdefault -o default -o nospace -F ___git_gp gp
 complete -o bashdefault -o default -o nospace -F ___git_ga vii 
-
 ```
