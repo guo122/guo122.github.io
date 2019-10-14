@@ -101,6 +101,7 @@ alias gmp="git commit -m 'update'"
 alias gl="git log"
 alias gp="git pull"
 alias gpp="git push origin master"
+alias ggsubup="git submodule update --recommend-shallow --init --recursive"
 
 alias ggs="cdg; gitSS"
 alias gskk="cdg;cd guo122.github.io;git status"
