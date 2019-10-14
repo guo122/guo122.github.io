@@ -9,6 +9,7 @@
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
+alias rmm="rm -i"
 #	ls
 alias ls="ls -G"
 alias la="ls -aF"
@@ -118,4 +119,5 @@ complete -o bashdefault -o default -o nospace -F ___git_gs gs
 complete -o bashdefault -o default -o nospace -F ___git_gl gl
 complete -o bashdefault -o default -o nospace -F ___git_gp gp
 complete -o bashdefault -o default -o nospace -F ___git_ga vii 
+complete -o bashdefault -o default -o nospace -F ___git_ga rmm
 ```

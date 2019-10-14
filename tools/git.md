@@ -65,6 +65,14 @@ git config --global merge.tool vimdiff
 git config --global mergetool.prompt false
 ```
 
+## Archive
+
+### zip
+
+```
+git archive master -o a.zip
+```
+
 ## Log
 
 ### undo commit
