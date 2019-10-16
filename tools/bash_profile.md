@@ -99,7 +99,7 @@ alias gs="git status"
 alias gm="git commit -m "
 alias gmp="git commit -m 'update'"
 alias gl="git log"
-alias gp="git pull"
+alias gp="gpoo --pull"
 alias gpp="git push origin master"
 alias ggsubup="git submodule update --recommend-shallow --init --recursive"
 
@@ -118,7 +118,6 @@ complete -o bashdefault -o default -o nospace -F ___git_ga gco
 complete -o bashdefault -o default -o nospace -F ___git_gco gcoo
 complete -o bashdefault -o default -o nospace -F ___git_gs gs
 complete -o bashdefault -o default -o nospace -F ___git_gl gl
-complete -o bashdefault -o default -o nospace -F ___git_gp gp
 complete -o bashdefault -o default -o nospace -F ___git_ga vii 
 complete -o bashdefault -o default -o nospace -F ___git_ga rmm
 ```
