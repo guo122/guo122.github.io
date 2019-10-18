@@ -102,6 +102,7 @@ alias gl="git log"
 alias gp="gpoo --pull"
 alias gpp="git push origin master"
 alias ggsubup="git submodule update --recommend-shallow --init --recursive"
+alias ggforkfetch="git fetch nn master; git merge nn/master"
 
 alias ggs="cdg; gitSS"
 alias gskk="cdg;cd guo122.github.io;git status"
