@@ -218,3 +218,16 @@ PS1="\h:\W\[\033[0;32m\]\$git_branch\[\033[0m\] \u\$ "
     ffo = config --local remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
 	ggcm = commit -m "update"
 ```
+
+## Statistic
+
+### git
+
+```
+git log --since=2018-01-01 --until=2019-07-10 | wc -l
+git log --author="$(git config --get user.name)" --pretty=tformat: --numstat | gawk '{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "added lines: %s removed lines : %s total lines: %s\n",add,subs,loc }' -
+git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r | head -n 20
+git log --pretty='%aN' | sort -u | wc -l
+```
+
+[git log 统计 shell sort uniq](https://my.oschina.net/shunshun/blog/3060576)
