@@ -7,7 +7,7 @@
 
 ## Shader
 
-- [HLSL Shader Model](./shaderModel.md)
+- [HLSL Shader Model](./shader/shaderModel.md)
 
 ## Material
 
