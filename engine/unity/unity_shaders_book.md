@@ -74,6 +74,11 @@ pic
 - 表9.6 延迟渲染路径中可以使用的内置变量
 - 平行光、点光源、聚光灯
 - 5个属性：位置、方向、颜色、强度以及衰减
+- 实验：Base Pass和Additional Pass的调用
+- 9.3 Unity的光照衰减
+- MRT（Multiple Render Targets）
+
+### [十]高级纹理
 
 
 
@@ -129,6 +134,20 @@ AlphaTestBothSided
 
 9-2-2-1
 ForwardRenering
+
+9-4-2
+Shadow
+
+9-4-4
+AttenuationAndShadowUseBuildInFunctions
+
+9-4-5
+AlphaTestWithShadow
+
+9-4-5b
+AlphaBlendWithShadow
+
+
 
 
 
