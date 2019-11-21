@@ -5,12 +5,12 @@
 
 ## Building
 
-```
+```sh
 git clone https://github.com/doxygen/doxygen
 cd doxygen
 ```
 
-```
+```sh
 mkdir build
 cd build
 cmake -G "Unix Makefiles" ..
@@ -20,7 +20,7 @@ make install
 
 ## Start
 
-```
+```sh
 doxygen -g -s
 ```
 

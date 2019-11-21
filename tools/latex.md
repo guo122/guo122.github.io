@@ -3,7 +3,7 @@
 
 ## Brew
 
-```
+```sh
 brew cask install basictex
 ```
 
