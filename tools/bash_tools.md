@@ -1,5 +1,5 @@
 
-```
+```sh
 #!/bin/bash
 
 # Define a custom complete function for 'git checkout'.

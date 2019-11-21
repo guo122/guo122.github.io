@@ -1,5 +1,5 @@
 
-```
+```sh
 "中文乱码 下两行“
 "set termencoding=utf-8
 "set encoding=prc
