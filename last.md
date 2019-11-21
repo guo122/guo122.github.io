@@ -9,3 +9,8 @@
 - [C++ 隐式转换带来的问题](http://www.51testing.com/html/15/n-824015.html)
 - [C++ 隐式类类型转换](https://www.cnblogs.com/QG-whz/p/4472566.html)
 - [pandoc markdown](https://daringfireball.net/projects/markdown/)
+- [git迁移到svn时原有历史提交中出现过冲突导致git svn dcommit出错的解决方法](https://www.cnblogs.com/lzhskywalker/archive/2012/06/11/2544791.html)
+
+- FX Composer
+- [NVIDIA FX Composer](https://blog.csdn.net/chenjinxian_3d/article/details/51792423)
+- [DirectX11 第三篇 编写Shader? --还是先了解下工具吧](https://blog.csdn.net/xueyedie1234/article/details/51354458/)
