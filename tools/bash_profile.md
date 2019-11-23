@@ -39,6 +39,7 @@ alias cdg="cdc;cd guo"
 ##########################################################
 #               path
 ##########################################################
+source ~/.bash_profile_os
 source ~/.bash_tools
 source ~/.bash_custom
 #	home
