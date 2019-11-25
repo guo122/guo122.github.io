@@ -54,4 +54,18 @@ ___git_gs ()
     COMP_CWORD=$((COMP_CWORD + 1))
     _git
 }
+
+__complete_goblin()
+{
+    local cmds=(`goblin printcomplete $3`)
+
+    COMPREPLY=()
+    
+    [ "$2" ] || { COMPREPLY=(${cmds[@]}) && return; }
+
+    for ((i = 0; i < ${#cmds[*]}; i++))
+    do  
+        [[ ${cmds[i]} =~ ^"$2" ]] && COMPREPLY=(${COMPREPLY[@]} ${cmds[i]})
+    done
+}
 ```

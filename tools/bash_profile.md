@@ -123,4 +123,5 @@ complete -o bashdefault -o default -o nospace -F ___git_gl gl
 complete -o bashdefault -o default -o nospace -F ___git_ga vii 
 complete -o bashdefault -o default -o nospace -F ___git_ga rmm
 complete -o bashdefault -o default -o nospace -F ___git_gp gp
+complete -F __complete_goblin goblin
 ```
