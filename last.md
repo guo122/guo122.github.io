@@ -14,3 +14,15 @@
 - FX Composer
 - [NVIDIA FX Composer](https://blog.csdn.net/chenjinxian_3d/article/details/51792423)
 - [DirectX11 第三篇 编写Shader? --还是先了解下工具吧](https://blog.csdn.net/xueyedie1234/article/details/51354458/)
+- [Unity-Spine动画](https://www.jianshu.com/p/588398464331)
+- [热空气扭曲效果Shader](https://www.cnblogs.com/wonderKK/p/4644813.html)
+- [Unity3D-Shader-热扭曲效果](https://www.cnblogs.com/lijiajia/p/6861516.html)
+- [Spine 2D游戏动画](http://zh.esotericsoftware.com)
+
+### Motion Vector Flipbook
+
+- flipbook, GIMP,  Maya-FumeFX, Houdini, AE, PS
+- motion vector, Flow Map, Slate
+- shader
+
+
