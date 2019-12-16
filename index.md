@@ -13,3 +13,9 @@
 
 - [macos](./macos/index.md)
 - [windows](./windows/index.md)
+
+## Rews
+
+- [Run](./rews/run.md)
+
+## [Test](./test.md)
