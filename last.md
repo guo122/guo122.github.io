@@ -19,6 +19,27 @@
 - [Unity3D-Shader-热扭曲效果](https://www.cnblogs.com/lijiajia/p/6861516.html)
 - [Spine 2D游戏动画](http://zh.esotericsoftware.com)
 
+- [UI mask with shader](https://answers.unity.com/questions/980924/ui-mask-with-shader.html)
+- [unity之UGUI去掉UI事件拦截（穿透）](https://blog.csdn.net/xufeng0991/article/details/65982019)
+- [Using Generic List with serializedProperty Inspector](https://answers.unity.com/questions/682932/using-generic-list-with-serializedproperty-inspect.html)
+
+```c
+private SerializedProperty things;
+
+private void OnEnable()
+{
+	things = serializedObject.FindProperty("things");
+}
+
+public override void OnInspectorGUI()
+{ 
+	EditorGUILayout.PropertyField(things, new GUIContent("Things"), true);
+}
+
+```
+
+- [游戏开发的数学和物理](https://github.com/AlloVince/physics_mathematics_skills_for_game_development)
+
 ### Motion Vector Flipbook
 
 - flipbook, GIMP,  Maya-FumeFX, Houdini, AE, PS
