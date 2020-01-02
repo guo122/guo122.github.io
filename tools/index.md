@@ -2,6 +2,7 @@
 # Tools
 
 - [GIT](./git.md)
+- [VIM](./vim.md)
 - [Graphviz](./graphviz.md)
 - [Doxygen](./doxygen.md)
 - [LaTeX](./latex.md)
