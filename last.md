@@ -46,4 +46,6 @@ public override void OnInspectorGUI()
 - motion vector, Flow Map, Slate
 - shader
 
+- [Unity5.3之后EditorUtility.SetDirty使用问题](http://aclegend.org/weblog/2018/03/06/unity53editorutilitysetdirty/)
 
+EditorSceneManager.MarkSceneDirty
