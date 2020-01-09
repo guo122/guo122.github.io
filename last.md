@@ -47,5 +47,8 @@ public override void OnInspectorGUI()
 - shader
 
 - [Unity5.3之后EditorUtility.SetDirty使用问题](http://aclegend.org/weblog/2018/03/06/unity53editorutilitysetdirty/)
+EditorSceneManager.MarkSceneDirty(obj.scene);
 
 EditorSceneManager.MarkSceneDirty
+
+- [git merge - diff + patch](https://www.cnblogs.com/findumars/p/4236930.html)
