@@ -14,6 +14,8 @@
 - [macos](./macos/index.md)
 - [windows](./windows/index.md)
 
+## [Blender](./blender/notes.md)
+
 ## Rews
 
 - [Run](./rews/run.md)
