@@ -9,6 +9,7 @@ set autoindent
 set tabstop=4
 set shiftwidth=4
 set pastetoggle=<F9>
+set backspace=indent,eol,start
 syntax on
 
 "set laststatus=2 "show the status lineset statusline=%-10.3n  "buffer number
@@ -19,6 +20,8 @@ syntax on
 
 set nocompatible
 filetype off
+
+set foldmethod=indent
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
