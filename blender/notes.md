@@ -24,6 +24,12 @@
 缩放 S
 旋转 R
 删除 X
+shift+A 新建
+shade smooth
+new material
+tab edit mode
+ctrl+R 选中边线
+3 面模式
 ```
 
 
