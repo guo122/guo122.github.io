@@ -52,3 +52,16 @@ EditorSceneManager.MarkSceneDirty(obj.scene);
 EditorSceneManager.MarkSceneDirty
 
 - [git merge - diff + patch](https://www.cnblogs.com/findumars/p/4236930.html)
+
+
+- [Dead Cells 的随机地图生成](https://indienova.com/indie-game-development/the-procedurally-generated-map-of-dead-cells/)
+Roguelike地图生成算法（PCG）
+eg：Rogue Legacy, The Binding of Isaac, Spelunky
+AI Director
+[Building the Level Design of a procedurally generated Metroidvania: a hybrid approach.](https://www.gamasutra.com/blogs/SebastienBENARD/20170329/294642/Building_the_Level_Design_of_a_procedurally_generated_Metroidvania_a_hybrid_approach.php)
+
+
+
+
+
+
