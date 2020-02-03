@@ -68,8 +68,6 @@ export LANG=en_US.UTF-8
 ##########################################################
 alias wkjj="wakeonlan xx:xx:xx:xx:xx:xx"
 
-alias alrand="date "+%a%b%c%d%sasdfasfdsdf"|md5|tr 'a-z' 'A-Z';date|md5|tr 'a-z' 'A-Z'|pbcopy"
-
 ##########################################################
 #               script
 ##########################################################
