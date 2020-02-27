@@ -58,8 +58,16 @@ EditorSceneManager.MarkSceneDirty
 Roguelike地图生成算法（PCG）
 eg：Rogue Legacy, The Binding of Isaac, Spelunky
 AI Director
+
+- [随机地图生成浅析](https://www.jianshu.com/p/bae0719cf53f)
+
 [Building the Level Design of a procedurally generated Metroidvania: a hybrid approach.](https://www.gamasutra.com/blogs/SebastienBENARD/20170329/294642/Building_the_Level_Design_of_a_procedurally_generated_Metroidvania_a_hybrid_approach.php)
 
+GLFW
+
+Rust
+
+[程序员的灯下黑：坚持和良好心态近乎道](https://www.cnblogs.com/flying_bat/archive/2007/05/30/764644.html)
 
 
 
