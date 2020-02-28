@@ -70,6 +70,33 @@ Rust
 [程序员的灯下黑：坚持和良好心态近乎道](https://www.cnblogs.com/flying_bat/archive/2007/05/30/764644.html)
 
 
+```
+no cache com.android.tools.lint:lint-gradle:26.3.2
+android {
+	lintOptions {
+		checkReleaseBuilds false
+		abortOnError false
+	}
+}
+```
+
+[Android Studio 搭建离线开发环境](https://www.jianshu.com/p/b12974b0fb25)
+
+[AndroidStudio中的内网开发离线配置](https://blog.csdn.net/wannaconquer/article/details/83041756)
+
+[Android 模拟器链接ddms 查看日志](https://blog.csdn.net/ttmice/article/details/99294372)
+
+[Android打包之bat脚本打包](https://blog.csdn.net/ljh081231/article/details/82850196)
+
+[深度优先搜索（DFS）](https://blog.csdn.net/qq_33302004/article/details/79671880)
+
+[游戏随机地图生成方法](https://www.cnblogs.com/AaronBlogs/p/7017493.html)
+
+[随机生成 Tile Based 地图之——洞穴](https://indienova.com/indie-game-development/procedural-content-generation-tile-based-random-cave-map/)
+
+[不懂就学系列（一）：gradle配置本地distributionUrl](https://www.jianshu.com/p/365a2bf2b92e)
+
+
 
 
 
