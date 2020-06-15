@@ -6,6 +6,7 @@
 - [序章](./0_Preface.md)
  - [这本书都讲了什么](./0_1_WhatThisBookCovers.md)
  - [读这本书需要什么](./0_2_WhhatYouNeedForThisBook.md)
+ - [本书适用人群](./0_3_WhoThisBookIsFor.md)
 - [第一章：性能检查](./1_PursuingPerformanceProblems.md)
 - [第二章：脚本策略](./2_ScriptingStrategies.md)
 - [第三章：合批的益处](./3_TheBenefitsOfBatching.md)
