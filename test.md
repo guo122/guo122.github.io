@@ -74,6 +74,9 @@ split
 |Column3|eee|fff|
 |Column4|ggg|hhh|
 
+# LaTeX test
+
+$ e = m c^2 $
 
 
 
