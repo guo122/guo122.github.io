@@ -13,6 +13,14 @@
 
 ### [读者反馈](./0_5_ReaderFeedback.md)
 
+### [客户支持](./0_6_CustomerSupport.md)
+
+#### [下载示例代码](./0_6_1_DownloadingTheExampleCode.md)
+
+#### [下载本书的彩色插图](./0_6_2_DownloadingTheColorImagesOfThisBook.md)
+
+#### [勘误](./0_6_3_Errata.md)
+
 ## [第一章：性能检查](./1_PursuingPerformanceProblems.md)
 
 ## [第二章：脚本策略](./2_ScriptingStrategies.md)
@@ -32,4 +40,4 @@
 ## [第九章：小技巧](./9_TacticalTipsAndTricks.md)
 
 
-*本文档为对此书的学习、翻译*
+[**本文档为对此书的学习、翻译**](./daily.md)
