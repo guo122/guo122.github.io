@@ -14,6 +14,7 @@
 	- [盗版](./0_6_4_Piracy.md)
 	- [问题](./0_6_5_Questions.md)
 - [第一章：性能检查](./1_PursuingPerformanceProblems.md)
+  - [The Unity Profiler](./1_1_TheUnityProfiler.md)
 - [第二章：脚本策略](./2_ScriptingStrategies.md)
 - [第三章：合批的益处](./3_TheBenefitsOfBatching.md)
 - [第四章：美术资源，启动](./4_KickstartYourArt.md)
