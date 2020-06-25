@@ -61,11 +61,11 @@
 
 split
 
-*aaaa*
+*Italic*
 
-**aaaaa**
+**BOLD**
 
-***asdfasfsdf***
+***Bold and Italic***
 
 |Title1|Title2|Title3|
 |---|---|---|
