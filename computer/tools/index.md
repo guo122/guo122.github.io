@@ -8,5 +8,7 @@
 - [Graphviz](./graphviz.md)
 - [Doxygen](./doxygen.md)
 
+- [LLDB](./lldb.md)
+
 - [sed](./sed.md)
 - [grep](./grep.md)

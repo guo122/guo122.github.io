@@ -17,3 +17,8 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 
 ### 检查路径
 `/Library/Developer/CommandLineTools`
+
+```sh
+dwarfdump --uuid <file>
+xcrun dwarfdump --uuid <dSYM>
+```
