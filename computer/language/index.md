@@ -3,6 +3,7 @@
 
 - [OC](./objectiveC/oc.md)
 - [Python](./python/index.md)
+- [C++](./cpp/index.md)
 
 - [shell](./shell.md)
 
