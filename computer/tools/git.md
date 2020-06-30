@@ -73,7 +73,7 @@ git config --global mergetool.prompt false
 git archive master -o a.zip
 ```
 
-## Log
+## log
 
 ### undo commit
 
@@ -88,7 +88,24 @@ git push origin master --force
 git commit --amend
 ```
 
-## Submodule
+### tag
+
+```sh
+git tag
+git show <tag>
+
+git tag <tag> <version>
+git tag <tag> -m '<comment>' <version>
+
+git tag -d <tag>
+
+git push origin <tag>
+git push origin --tags
+
+git push origin :ref/tags/<tag>
+```
+
+## submodule
 
 ### add
 
