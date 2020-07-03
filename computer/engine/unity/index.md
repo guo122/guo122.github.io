@@ -3,6 +3,8 @@
 
 - [Unity 2017 Game Optimization Notes](./unity2017GameOpt/index.md)
 
+- [Assets](./assets.md)
+
 - [Unity Shader Notes](./unity_shaders_book.md)
 - [Shader](./shader.md)
 - [Particle System](./particlesystem.md)
