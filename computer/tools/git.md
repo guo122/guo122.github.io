@@ -116,7 +116,7 @@ git submodule add --depth=1 <url>
 ### init and update
 
 ```sh
-git submoudle update --depth=1 --init --recursive
+git submodule update --depth=1 --init --recursive
 git submodule foreach --recursive git submodule update --init
 ```
 
@@ -132,7 +132,7 @@ git commit -am "remove submodule"
 
 ```sh
 git config -f .gitmodules submodule.<name>.shallow true
-git submoudle update --[no-]recommend-shallow --init --recursive
+git submodule update --[no-]recommend-shallow --init --recursive
 ```
 
 [How to make shallow git submodules?](https://stackoverflow.com/questions/2144406/how-to-make-shallow-git-submodules)
