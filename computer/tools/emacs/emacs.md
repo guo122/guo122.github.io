@@ -26,6 +26,14 @@ M-e			// Move forward to end of sentence.
 
 M-<			// Move to the beginning.
 M->			// Move to the end.
+
+M-{			// Backward paragraph.
+M-}			// Forward paragraph.
+
+C-M-p			// Jump (
+C-M-n			// Jump )
+
+M-g g			// Jump to specific number line.
 ```
 
 ## window

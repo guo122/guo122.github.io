@@ -1,3 +1,5 @@
+
+```
 Emacs tutorial.  See end for copying conditions.
 
 Emacs commands generally involve the CONTROL key (sometimes labeled
@@ -1136,3 +1138,5 @@ and comes with permission to distribute copies on certain conditions:
 Please read the file COPYING and then do give copies of GNU Emacs to
 your friends.  Help stamp out software obstructionism ("ownership") by
 using, writing, and sharing free software!
+```
+

@@ -5,8 +5,7 @@
 - [VIM](./vim.md)
 - [Find](./find.md)
 
-- [Emacs](./emacs.md)
-- [emacs_tutorial](./emacs_tutorial.md)
+- [Emacs](./emacs/index.md)
 
 - [LaTeX](./latex.md)
 - [Graphviz](./graphviz.md)
