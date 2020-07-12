@@ -5,6 +5,8 @@
 - [VIM](./vim.md)
 - [Find](./find.md)
 
+- [Emacs](./emacs.md)
+
 - [LaTeX](./latex.md)
 - [Graphviz](./graphviz.md)
 - [Doxygen](./doxygen.md)
@@ -13,3 +15,5 @@
 
 - [sed](./sed.md)
 - [grep](./grep.md)
+
+- [brew](./brew.md)

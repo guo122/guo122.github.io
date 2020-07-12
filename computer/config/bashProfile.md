@@ -24,6 +24,8 @@ alias egrep="egrep --color=auto"
 #	vim
 alias vi="vim"
 alias vii="vim"
+
+alias em="emacs"
 #	.bash_profile
 alias vipro="vim ~/.bash_profile"
 alias viproo="vim ~/.bash_custom"
