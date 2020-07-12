@@ -3,7 +3,7 @@
 
 <https://www.emacswiki.org/emacs/EmacsForMacOS>
 
-move
+## move
 
 ```
 C-v			// Move forward one screenful.
@@ -28,20 +28,41 @@ M-<			// Move to the beginning.
 M->			// Move to the end.
 ```
 
-window
+## window
 
 ```
-C-x 1		// One window.
+C-x 1		// Delete all but one window.
+C-x 2
+C-x 3
+C-x 4 C-f
+C-x 4 u
+
+C-M-v		// Scroll the bottom window.
+C-x o		// Go back to the top window.
 ```
 
-buffer
+## frames
+
+```
+C-x 5 2		// Create a new frame.
+C-x 5 0		// Remove the selected frame.
+```
+
+## buffer
 
 ```
 C-x C-s		// Save the file.
+C-x s		// Save some buffers.
 C-x C-b		// List buffers.
+C-x b		// Switch buffer.
 ```
 
-delete
+## autoSave
+```
+M-x recover-this-file
+```
+
+## delete
 
 ```
 <DEL>       // Delete the character just before the cursor
@@ -57,15 +78,41 @@ C-y			// Yank the text back.
 M-y			// Replaces that yanked text with the previous kill.
 ```
 
-undo
+## undo
 
 ```
 C-/
 C-_
-C-x u		// undo
+C-x u		// Undo
 ```
 
-others
+## search
+
+```
+C-s		// Forward search
+C-r		// Reverse serach
+```
+
+## mode line
+
+```
+M-x text-mode
+M-x auto-fill-mode
+```
+
+## help
+
+```
+C-h c C-p	// Brief description of the command.
+C-h k C-p	// More information about a command.
+C-h f 		// Describe a function.
+C-h v		// The documentation of variables.
+C-h a		// Command Apropos.
+C-h i		// Read included Manuals.
+C-h r		// Emacs manual.
+```
+
+## others
 
 ```
 C-u num
