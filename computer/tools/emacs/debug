@@ -1,5 +1,4 @@
 
-```
 Debugging GNU Emacs
 
 Copyright (C) 1985, 2000-2019 Free Software Foundation, Inc.
@@ -988,5 +987,4 @@ Local variables:
 mode: outline
 paragraph-separate: "[ 	]*$"
 end:
-```
 

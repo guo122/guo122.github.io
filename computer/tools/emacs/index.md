@@ -5,7 +5,7 @@
 
 ## Manual
 
-- [Tutorial](./tutorial.md)
-- [Debugging](./debug.md)
+- [Tutorial](./tutorial)
+- [Debugging](./debug)
 
 
