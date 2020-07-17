@@ -22,6 +22,7 @@
 - [Terminal](./macos/terminal.md)
 - [Tips](./macos/tips.md)
 - [Xcode](./macos/xcode.md)
+- [Apple Script](./macos/apple_script.md)
 
 ## Windows
 
