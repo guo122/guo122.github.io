@@ -17,6 +17,7 @@
 
 ## macOS
 
+- [Binary](./macos/binary.md)
 - [CocoaPods](./macos/cocoapods.md)
 - [Disk Utils](./macos/diskutil.md)
 - [Terminal](./macos/terminal.md)
