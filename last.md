@@ -99,4 +99,29 @@ android {
 [VSCode 对 Emacs 代码浏览哪家强](https://zhuanlan.zhihu.com/p/74729278)
 
 
+```
+public class OriginalAtlasUVAsUV1: BaseMeshEffect
+	public override void ModifyMesh(VertexHelper vh)
+	{
+		UIVertex vertex = new UIVertex();
+
+		for (int i = 0; i < vh.currentVertCount; ++i)
+		{
+			vh.PopulateUIVertex(ref vertex, i);
+			vertex.uv1.x = (i >> 1);
+			vertex.uv1.y = ((i >> 1) ^ (i & 1));
+			vh.SetUIVertex(vertex, i);
+		}
+	}
+}
+```
+
+```
+[Header("...")]
+[LabelText("...")]
+[Tooltip("...")]
+```
+
+
+
 
