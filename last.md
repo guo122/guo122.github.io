@@ -122,6 +122,28 @@ public class OriginalAtlasUVAsUV1: BaseMeshEffect
 [Tooltip("...")]
 ```
 
+```
+public class CustomHotKey : EditorWindow
+{
+	[MenuItem("HotKey/Toggle Active Game Object %g"]
+	static void HotKey_ToggleActiveGameObject()
+	{
+		if (Selection.gameObjects.Length > 0)
+		{
+			bool bActive = !Selection.gameObjects[0].activeSelf;
+			foreach (var data in Selection.gameObjects)
+			{
+				data.SetActive(bActive);
+			}
+		}
+	}
+}
+
+% - Ctrl
+# - Shift
+& - Alt
+```
+
 
 
 
