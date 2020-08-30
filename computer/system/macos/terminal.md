@@ -26,3 +26,6 @@ date -r 1567890123
 `cd /System/Library/CoreServices/`
 `sudo mv Search2.bundle/ Search.bundle/`
 
+```
+sudo powermetrics ... --samplers smc
+```
