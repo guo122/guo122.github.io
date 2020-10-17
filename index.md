@@ -11,7 +11,6 @@
 
 - [Body](./world/body/index.md)
 - [City](./world/city/subway.md)
-- [Essay](./world/essay/index.md)
 
 ## Computer
 
