@@ -1,6 +1,8 @@
 
 # VIM
 
+## [Plugin](./plugin.md)
+
 ## move cursor
 
 ```
@@ -37,3 +39,28 @@ m[char]		// set book mark [char].
 > 			// indent
 <			// indent
 ```
+
+## config
+
+```
+colorscheme default
+set encoding=utf-8
+set mouse=
+```
+
+## command
+
+```
+e open		// open file.
+```
+
+## tab
+
+```
+tabnew
+tabn1
+
+gvim -p <file1> <file2>
+
+```
+
