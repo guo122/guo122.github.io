@@ -1,6 +1,10 @@
 
 # VIM
 
+## VIM USER MANUAL Notes
+
+- [Getting Started](./usr_getting_started.md)
+
 ## [Plugin](./plugin.md)
 
 ## move cursor
