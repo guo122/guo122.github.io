@@ -63,10 +63,20 @@ h     l
 
 - *CTRL-T* pop tag
 - *CTRL-O* jump to older position
-- When you need to get help for a control character command (for example, CTRL-A), you need to spell it with the prefix "CTRL-".
-`:help CTRL-A`
-- To identify other modes, use a mode prefix. If you want the help for the insert-mode version of a command, use "i_". For CTRL-H this gives you the following command:
-`:help i_CTRL-H`
-- When you start the Vim editor, you can use several command-line arguments. These all begin with a dash (-). To find what the -t argument does, for example, use the command:
-`:help -t`
+
+- `:help CTRL-A`
+- `:help cpo-<letter>`
+
+- `:help i_CTRL-H`
+- `:help i_CTRL-W`
+- `:help i_CTRL-X`
+- `:help i_<Up>`
+- `:help v_o`
+- `:help c_%`
+
+- `:help -t`
+- `:help 'number'`
+- `:help :s`
+- `:help E37`
+- `:help >cont`
 
