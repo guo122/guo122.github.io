@@ -93,7 +93,7 @@ h     l
 - `*``#` searching for a ward in the text
 - `/\<the\>` searching for whole words.
 - `:set hlsearch` highlighting matches.
-- `;set incsearch` display the match for the string while you are still typing it.
+- `:set incsearch` display the match for the string while you are still typing it.
 
 ### 03.10 Using marks
 
@@ -102,6 +102,37 @@ h     l
 - `:marks` get a list of marks.
 - `m{mark}` place a mark.
 - `'{mark}` jump to mark.
+
+## 04 Making small changes
+
+### 04.1 Operators and motions
+
+- `d4w` delete four words.
+- `c4w` just like "d" operator, except it leaves you in Insert mode.
+
+### 04.2 Changing text
+
+SHORTCUTS
+
+- `x``dl` delete character under the cursor.
+- `X``dh` delete character left of the cursor.
+- `D``d$` delete to end of the line.
+- `C``c$` change to end of the line.
+- `s``cl` change one character.
+- `S``cc` change a whole line.
+
+### 04.3 Repeating a change
+
+- `.` It repeats the last change.
+
+
+
+
+
+
+
+
+
 
 
 
