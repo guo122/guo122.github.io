@@ -80,3 +80,29 @@ h     l
 - `:help E37`
 - `:help >cont`
 
+## 03 Moving around
+
+### 03.6 Telling where you are
+
+- `CTRL-G` show where you are.
+- `:set ruler/ru` enable ruler.
+
+### 03.8 Simple searches
+
+- `:set ignorecase` ignoring case
+- `*``#` searching for a ward in the text
+- `/\<the\>` searching for whole words.
+- `:set hlsearch` highlighting matches.
+- `;set incsearch` display the match for the string while you are still typing it.
+
+### 03.10 Using marks
+
+- `:jumps` gives a list of positions you jumped to.
+
+- `:marks` get a list of marks.
+- `m{mark}` place a mark.
+- `'{mark}` jump to mark.
+
+
+
+
