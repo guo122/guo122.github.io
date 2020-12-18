@@ -125,6 +125,32 @@ SHORTCUTS
 
 - `.` It repeats the last change.
 
+### 04.4 Visual mode.
+
+- `v`
+- `V` selecting lines.
+- `CTRL-V` selecting blocks.
+- `o` only takes you to one of the other corners.
+- `O` move to the other corner in the same line.
+
+### 04.7 Using the clipboard
+
+- `"*y` copy to the clipboard.
+- `"*p` put text from the clipboard.
+
+### 04.8 Text objects.
+
+- `daw` delete a word.
+
+## 05 Set your settings
+
+### 05.1 The vimrc file.
+
+- `:edit $MYVIMRC` 
+- `:version` mentions the name of the "user vimrc file" Vim looks for.
+
+
+
 
 
 
