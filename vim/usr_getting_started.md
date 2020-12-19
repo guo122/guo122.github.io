@@ -149,9 +149,40 @@ SHORTCUTS
 - `:edit $MYVIMRC` 
 - `:version` mentions the name of the "user vimrc file" Vim looks for.
 
+### 05.3 The defaults.vim
+
+- `set backspace=indent,eol,start`
+- `set showcmd`
+- `set wilemenu`
+- `filetype plugin indent on`
 
 
+### 05.4 Simple mappings
 
+- `:map <F5> i{<Esc>ea}<Esc>`
+
+
+### 05.5 Adding a package
+
+- `packadd! matchit`
+- `:help matchit`
+
+### 05.6 Adding a plugin
+
+### 05.7 Adding a help file
+
+### 05.8 The option window
+
+- `:options` 
+
+### 05.9 Often used options
+
+- `:set iskeyword&`
+- `:set ignorecase`
+- `:set nowrap`
+- `:set list`
+
+## 06 Using syntax highlighting
 
 
 
