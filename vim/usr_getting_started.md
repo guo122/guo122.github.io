@@ -184,6 +184,17 @@ SHORTCUTS
 
 ## 06 Using syntax highlighting
 
+## 07 Editing more than one file
+
+### 07.1 Edit another file
+
+- `:hide edit foo.txt`
+
+### 07.2 A list of files
+
+- `:previous`
+- `:next`
+- `:args` where am i
 
 
 
