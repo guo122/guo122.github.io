@@ -196,6 +196,9 @@ SHORTCUTS
 - `:next`
 - `:args` where am i
 
+- `:set autowrite` automatic writing
+- `:args five.c six.c seven.h` editing another list of files
+
 
 
 

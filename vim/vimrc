@@ -1,0 +1,30 @@
+
+set encoding=utf-8
+
+set nu
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set backspace=indent,eol,start
+
+set ru
+set cul
+
+set hlsearch
+set incsearch
+
+set showcmd
+set wildmenu
+
+set ignorecase
+set iskeyword&
+
+colorscheme desert
+set mouse=
+
+let @a = "^i// \<Esc>j"
+let @b = ":s/\\/\\/\\ //\<CR>j"
+
+syntax on
+
+
